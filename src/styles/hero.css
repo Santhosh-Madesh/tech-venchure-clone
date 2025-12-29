@@ -1,0 +1,176 @@
+.blur-top {
+  z-index: -10;
+  background-color: var(--blur-blue);
+  filter: blur(150px);
+  border-radius: 100%;
+  width: 75%;
+  height: 22em;
+  position: absolute;
+  top: -12em;
+  bottom: auto;
+  left: -25%;
+  right: auto;
+  transform: perspective(1000px);
+}
+
+.wrapper-circle {
+  justify-content: center;
+  align-items: center;
+  min-height: 26em;
+  display: flex;
+  position: relative;
+}
+
+.area-main-a6 {
+  z-index: 5;
+  border-radius: 100%;
+  width: 30em;
+  height: 30em;
+  position: relative;
+}
+
+.circle-hero {
+  transform-style: preserve-3d;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  display: flex;
+  position: relative;
+  top: 1.4em;
+  transform: rotateX(60deg)rotateY(26deg)rotateZ(0);
+}
+
+.content-wrapper-circle {
+  perspective: 2000px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  transform: perspective(2000px);
+}
+
+.area-a5 {
+  z-index: 6;
+  transform-style: preserve-3d;
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform: translate3d(0, 0, 3em);
+}
+
+.area-a4 {
+  z-index: 7;
+  transform-style: preserve-3d;
+  border-radius: 100%;
+  width: 93%;
+  height: 93%;
+  position: absolute;
+  transform: translate3d(0, 0, 6em);
+}
+
+.area-a3 {
+  z-index: 8;
+  filter: blur(10px);
+  transform-style: preserve-3d;
+  border-radius: 100%;
+  width: 82%;
+  height: 82%;
+  position: absolute;
+  transform: translate3d(0, 0, 9em);
+}
+
+.area-a2 {
+  z-index: 9;
+  filter: blur(15px);
+  transform-style: preserve-3d;
+  border-radius: 100%;
+  width: 64%;
+  height: 64%;
+  position: absolute;
+  transform: translate3d(0, 0, 12em);
+}
+
+.area-a1 {
+  z-index: 10;
+  filter: blur(20px);
+  transform-style: preserve-3d;
+  border-radius: 100%;
+  width: 38%;
+  height: 38%;
+  position: absolute;
+  transform: translate3d(0, 0, 15em);
+}
+
+.area-a7 {
+  z-index: 4;
+  transform-style: preserve-3d;
+  border-radius: 100%;
+  width: 93%;
+  height: 93%;
+  position: absolute;
+  transform: translate3d(0, 0, -3em);
+}
+
+.area-a8 {
+  z-index: 3;
+  filter: blur(10px);
+  transform-style: preserve-3d;
+  border-radius: 100%;
+  width: 82%;
+  height: 82%;
+  position: absolute;
+  transform: translate3d(0, 0, -6em);
+}
+
+.area-a9 {
+  z-index: 2;
+  filter: blur(15px);
+  transform-style: preserve-3d;
+  border-radius: 100%;
+  width: 64%;
+  height: 64%;
+  position: absolute;
+  transform: translate3d(0, 0, -9em);
+}
+
+.area-a10 {
+  z-index: 1;
+  filter: blur(20px);
+  transform-style: preserve-3d;
+  border-radius: 100%;
+  width: 38%;
+  height: 38%;
+  position: absolute;
+  transform: translate3d(0, 0, -12em);
+}
+
+.blur-hero {
+  z-index: -10;
+  background-color: var(--blur-blue);
+  filter: blur(150px);
+  border-radius: 100%;
+  width: 50em;
+  height: 20em;
+  position: absolute;
+  bottom: -4em;
+  transform: perspective(1000px);
+}
+
+.color-circle {
+  background-image: linear-gradient(72deg, var(--circle-1), var(--circle-2) 80%);
+  box-shadow: inset 0 0 0 1px var(--circle-border);
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.color-circle.line {
+  box-shadow: inset 0 0 0 3px var(--circle-accent);
+  background-image: none;
+}

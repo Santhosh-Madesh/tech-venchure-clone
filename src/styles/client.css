@@ -1,0 +1,15 @@
+
+.clients{
+    animation-name: slide-show;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide-show {
+    from {
+        transform: translateX(200px) ;
+    }
+    to{
+        transform: translateX(-200px);
+    }
+}
