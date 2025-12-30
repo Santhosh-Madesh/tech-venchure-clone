@@ -8,7 +8,7 @@ export const ContactForm = () => {
 
         const formData = new FormData(e.target)
 
-        await fetch("http://localhost:5000/contact-form", {
+        await fetch("https://tech-venchure-clone-backend.vercel.app/contact-form", {
             method:'POST',
             body:formData
         })
