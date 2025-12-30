@@ -12,23 +12,23 @@ export default function ExpertiseSection(){
             </div>
 
             <div className="grid grid-cols-3 gap-2">
-                <div className="border border-[#f89500] rounded-xl pt-6 pb-8 px-8 mr-2">
+                <div className="border border-[#662d04] rounded-xl pt-6 pb-8 px-8 mr-2">
                     <div className="flex items-center justify-center">
                         <img src={logo1}></img>
                     </div>
-                    <p className="bg-gradient-to-r from-[#fbfaf9] to-[#cbbab5] text-transparent bg-clip-text">10+</p>
+                    <p className="bg-gradient-to-r from-[#662d04] to-[#cbbab5] text-transparent bg-clip-text">10+</p>
                     <p className="text-white">Years of Industry Expertise</p>
                 </div>
 
-                <div className="border border-[#f89500] rounded-xl pt-6 pb-8 px-8 mx-2">
+                <div className="border border-[#662d04] rounded-xl pt-6 pb-8 px-8 mx-2">
                     <div className="flex items-center justify-center">
                         <img src={logo2}></img>
                     </div>
-                    <p className="bg-gradient-to-r from-[#fbfaf9] to-[#cbbab5] text-transparent bg-clip-text">100%</p>
+                    <p className="bg-gradient-to-r from-[#662d04] to-[#cbbab5] text-transparent bg-clip-text">100%</p>
                     <p className="text-white">Comprehensive Maintenance and Support</p>
                 </div>
 
-                <div className="border border-[#f89500] rounded-xl pt-6 pb-8 px-8 ml-2">
+                <div className="border border-[#662d04] rounded-xl pt-6 pb-8 px-8 ml-2">
                     <div className="flex items-center justify-center">
                         <img src={logo3}></img>
                     </div>

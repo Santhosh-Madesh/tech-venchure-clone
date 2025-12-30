@@ -15,7 +15,7 @@ import './App.css'
 export default function App() {
 
   return(
-    <div>
+    <div className='font-creato'>
       <Navbar/>
       <HeroSection/>
       <ClientSection/>

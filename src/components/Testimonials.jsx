@@ -13,7 +13,7 @@ export const Testimonials = () => {
         </div>
         <div className='grid grid-cols-3 gap-5'>
 
-            <div className='col-span-1 border border-[#f9761a] rounded-2xl px-12 py-8 bg-[#16100d]'>
+            <div className='col-span-1 border border-[#662d04] rounded-2xl px-12 py-8 bg-[#16100d]'>
                 <div className='text-left mb-6'>
                     <p className='text-white font-bold'>“Working with Techvenchure has been a game-changer for our business. They helped us reach new audiences and achieve our goals faster than we ever thought possible.”</p>
                 </div>
@@ -28,7 +28,7 @@ export const Testimonials = () => {
                 </div>
             </div>
 
-            <div className='col-span-1 border border-[#f9761a] rounded-xl px-12 py-8 bg-[#16100d]'>
+            <div className='col-span-1 border border-[#662d04] rounded-xl px-12 py-8 bg-[#16100d]'>
                 <div className='text-left mb-6'>
                     <p className='text-white font-bold'>“Techvenchure's expertise is unmatched, and they've helped us grow our online presence significantly. Their strategies are data-driven and tailored to our specific needs.”</p>
                 </div>
@@ -43,7 +43,7 @@ export const Testimonials = () => {
                 </div>
             </div>
 
-            <div className='col-span-1 border border-[#f9761a] rounded-xl px-12 py-8 bg-[#16100d]'>
+            <div className='col-span-1 border border-[#662d04] rounded-xl px-12 py-8 bg-[#16100d]'>
                 <div className='text-left mb-6'>
                     <p className='text-white font-bold'>“Choosing Techvenchure for our SaaS development was a wise decision. Their team is experienced and dedicated.”</p>
                 </div>
@@ -58,7 +58,7 @@ export const Testimonials = () => {
                 </div>
             </div>
 
-            <div className='col-span-1 border border-[#f9761a] rounded-xl px-12 py-8 bg-[#16100d]'>
+            <div className='col-span-1 border border-[#662d04] rounded-xl px-12 py-8 bg-[#16100d]'>
                 <div className='text-left mb-6'>
                     <p className='text-white font-bold'>“Techvenchure has exceeded our expectations in every way. Their team is dedicated, knowledgeable, and always goes the extra mile to ensure our campaigns are a success.”</p>
                 </div>
@@ -73,7 +73,7 @@ export const Testimonials = () => {
                 </div>
             </div>
 
-            <div className='col-span-1 border border-[#f9761a] rounded-xl px-12 py-8 bg-[#16100d]'>
+            <div className='col-span-1 border border-[#662d04] rounded-xl px-12 py-8 bg-[#16100d]'>
                 <div className='text-left mb-6'>
                     <p className='text-white font-bold'>“Choosing Techvenchure for our app development project was one of the best decisions we made. Their team is highly skilled and dedicated, and they worked tirelessly to ensure that our app met our specifications and was delivered on time. We would definitely work with them again in the future.”</p>
                 </div>
@@ -88,7 +88,7 @@ export const Testimonials = () => {
                 </div>
             </div>
 
-            <div className='col-span-1 border border-[#f9761a] rounded-xl px-12 py-8 bg-[#16100d]'>
+            <div className='col-span-1 border border-[#662d04] rounded-xl px-12 py-8 bg-[#16100d]'>
                 <div className='text-left mb-6'>
                     <p className='text-white font-bold'>“I would highly recommend Techvenchure for SaaS development. Their team is highly skilled and professional, and they were able to deliver a scalable and robust platform that has been instrumental in our business growth.”</p>
                 </div>
