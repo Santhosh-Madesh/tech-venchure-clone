@@ -10,6 +10,7 @@ import { Revolutionary } from './components/Revolutionary'
 import { FAQ } from './components/FAQ'
 import { Banner } from './components/Banner'
 import { Footer } from './components/Footer'
+import { ContactForm } from './components/ContactForm'
 import './App.css'
 
 export default function App() {
@@ -27,6 +28,7 @@ export default function App() {
       <Revolutionary />
       <FAQ />
       <Banner/>
+      <ContactForm />
       <Footer/>
     </div>
   )

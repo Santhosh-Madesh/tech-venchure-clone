@@ -5,7 +5,7 @@ export default function AboutSection(){
         <div className="text-left mt-24 ml-30 mr-32 ">
             <h2 className="bg-gradient-to-r from-[#fbfaf9] to-[#cbbab5] font-medium bg-clip-text text-transparent text-5xl pb-4 mb-4">AI-Powered Solutions for<br></br> Targeted Lead Acquisition</h2>
             <p className="bg-gradient-to-r from-[#fbfaf9] to-[#89746b] font-medium bg-clip-text text-transparent text-3xl pb-4 mb-4">Your gateway to a world where expertise meets<br></br>innovation. While you're here, talk to an expert and<br></br> let's shape your digital success story together.</p>
-            <button className="border-transparent rounded-full text-white px-4 py-2 cursor bg-gradient-to-r from-[#ff3700] to-[#ff8800]">Learn More</button>
+            <button className="border-transparent rounded-full text-white px-4 py-2 cursor-pointer bg-[linear-gradient(90deg,#ff3700,#ff8800,#672d04,#ff8800)] bg-[length:300%_100%] bg-left hover:bg-right transition-[background-position] duration-700 ease-out">Learn More</button>
         </div>
     )
 }

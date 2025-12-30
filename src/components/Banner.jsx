@@ -6,7 +6,7 @@ export const Banner = () => {
         <div className='mt-14'>
             <h2 className='bg-gradient-to-r from-[#fbfaf9] to-[#a4a2a0] text-transparent bg-clip-text font-medium text-5xl mb-12'>We manage your IT and<br></br> Marketing so that you <br></br>can manage your<br></br> business and sales</h2>
             <p className='text-white font-bold mb-12'>Elevate your enterprise with Techvenchure – where<br></br> innovation meets excellence in IT solutions.<br></br> Transforming challenges into opportunities for a digital<br></br> future.</p>
-            <button className="rounded-full py-2 pr-6 pl-6 bg-gradient-to-r from-[#ff3700] to-[#ff8800] hover:bg-[#672d04] cursor-pointer text-white text-xl font-medium mb-12">Get Started</button>
+            <button className="rounded-full py-2 pr-6 pl-6 bg-[linear-gradient(90deg,#ff3700,#ff8800,#672d04,#ff8800)] bg-[length:300%_100%] bg-left hover:bg-right transition-[background-position] duration-700 ease-out cursor-pointer text-white text-xl font-medium mb-12">Get Started</button>
         </div>
     </div> 
     )

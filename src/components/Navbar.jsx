@@ -32,7 +32,7 @@ export default function Navbar(){
                     </ul>
                 </div>
                 <div className="p-4 text-[15px] leading-[18px]">
-                    <button className="text-white rounded-full pt-3 pb-3 pr-5 pl-5 bg-[#121f2d] hover:bg-gradient-to-r from-[#ff3700] to-[#ff8800]">Contact</button>
+                    <button className="text-white rounded-full pt-3 pb-3 pr-5 pl-5 bg-[linear-gradient(90deg,#121f2d,#121f2d,#ff3700,#ff8800)] bg-[length:300%_100%] bg-left hover:bg-right transition-[background-position] duration-700 ease-out">Contact</button>
                 </div>
             </div>
     )

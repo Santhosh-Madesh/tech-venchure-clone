@@ -14,7 +14,7 @@ export default function HeroSection(){
                 Success in the Digital Age. We build<br></br>
                 brands and accelerate startups in MENA.</p>
 
-                <button className="rounded-full p-2 pr-4 pl-4 bg-gradient-to-r from-[#ff3700] to-[#ff8800] hover:bg-[#672d04] cursor-pointer">Get Started</button>
+                <button className="rounded-full p-2 pr-4 pl-4 bg-[linear-gradient(90deg,#ff3700,#ff8800,#672d04,#ff8800)] bg-[length:300%_100%] bg-left hover:bg-right transition-[background-position] duration-700 ease-out  cursor-pointer">Get Started</button>
             </div>
             <div>
                 <img src={sphere}></img>
