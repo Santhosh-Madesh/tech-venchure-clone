@@ -8,16 +8,18 @@ export const ContactForm = () => {
 
         const formData = new FormData(e.target)
 
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("subject").value = "";
+        document.getElementById("message").value = "";
+
         await fetch("https://tech-venchure-clone-backend.vercel.app/contact-form", {
             method:'POST',
             body:formData
         })
 
 
-        document.getElementById("name").value = "";
-        document.getElementById("email").value = "";
-        document.getElementById("subject").value = "";
-        document.getElementById("message").value = "";
+        
     }
   return (
     <div className='mt-36 ml-32 mr-48 text-white  border border-[#662d04] rounded-xl bg-[#16100d]'>
