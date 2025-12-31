@@ -17,6 +17,9 @@ export const ContactForm = () => {
 
         await fetch("https://tech-venchure-backend-api.vercel.app/contact-form", {
             method:'POST',
+            headers:{
+                'Content-Type':'application/json'
+            },
             body:JSON.stringify(data)
         })
 
