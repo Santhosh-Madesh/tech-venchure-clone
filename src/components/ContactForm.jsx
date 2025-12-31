@@ -13,7 +13,7 @@ export const ContactForm = () => {
         document.getElementById("subject").value = "";
         document.getElementById("message").value = "";
 
-        await fetch("https://tech-venchure-clone-backend.vercel.app/contact-form", {
+        await fetch("https://tech-venchure-backend-api.vercel.app/contact-form", {
             method:'POST',
             body:formData
         })
