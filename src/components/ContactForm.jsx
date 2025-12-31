@@ -8,7 +8,10 @@ export const ContactForm = () => {
 
         const formData = new FormData(e.target)
 
-        await fetch("http://localhost:5000/contact-form", {
+        const data = {name:formData.get("name"), email:formData.get("email"), subject:formData.get("subject"), message:formData.get("message")}
+        console.log(data);
+
+        await fetch("https://tech-venchure-backend-api.vercel.app/contact-form", {
             method:'POST',
             body:formData
         })
