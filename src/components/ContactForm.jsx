@@ -8,6 +8,8 @@ export const ContactForm = () => {
 
         const formData = new FormData(e.target)
 
+        const data = {name:formData.get("name"), email:formData.get("email"), subject:formData.get("subject"), message:formData.get("message")}
+        
         document.getElementById("name").value = "";
         document.getElementById("email").value = "";
         document.getElementById("subject").value = "";
@@ -15,7 +17,7 @@ export const ContactForm = () => {
 
         await fetch("https://tech-venchure-backend-api.vercel.app/contact-form", {
             method:'POST',
-            body:JSON.stringify(formData)
+            body:JSON.stringify(data)
         })
 
 
