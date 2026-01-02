@@ -9,18 +9,22 @@ export const ContactForm = () => {
         const formData = new FormData(e.target)
 
         const data = {name:formData.get("name"), email:formData.get("email"), subject:formData.get("subject"), message:formData.get("message")}
-        console.log(data);
-
-        await fetch("https://tech-venchure-backend-api.vercel.app/contact-form", {
-            method:'POST',
-            body:formData
-        })
-
-
+        
         document.getElementById("name").value = "";
         document.getElementById("email").value = "";
         document.getElementById("subject").value = "";
         document.getElementById("message").value = "";
+
+        await fetch("https://tech-venchure-backend-api.vercel.app/contact-form", {
+            method:'POST',
+            headers:{
+                'Content-Type':'application/json'
+            },
+            body:JSON.stringify(data)
+        })
+
+
+        
     }
   return (
     <div className='mt-36 ml-32 mr-48 text-white  border border-[#662d04] rounded-xl bg-[#16100d]'>

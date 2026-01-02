@@ -29,7 +29,7 @@ export const QNA = ({question, answer}) => {
     const A = answer;
 
   return (
-    <div className={clicked ? ' mb-4 ml-24 mr-16 border border-[#662d04] rounded-xl py-4 px-7 cursor-pointer bg-[#ff0000]':' mb-4 ml-24 mr-16 border border-[#662d04] rounded-xl py-4 px-7 cursor-pointer'}>
+    <div className={clicked ? ' mb-4 ml-24 mr-16 border border-[#662d04] rounded-xl py-4 px-7 cursor-pointer bg-[#ff0000] select-none':' mb-4 ml-24 mr-16 border border-[#662d04] rounded-xl py-4 px-7 cursor-pointer select-none'}>
         <div className='flex justify-between align-center' ref={QNARef}>
     
             <div className='text-left'>
